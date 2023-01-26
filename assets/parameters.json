@@ -6,5 +6,9 @@
   "PACKAGE_VERSION": {
     "type": "input",
     "message": "Enter the NPM package version to use:"
+  },
+  "PACKAGE_ROUTE": {
+    "type": "input",
+    "message": "Enter the route to run the application on:"
   }
 }

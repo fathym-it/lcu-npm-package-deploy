@@ -6,7 +6,7 @@
         "Name": "NPM Package Deploy: {{NPM_PACKAGE}}"
       },
       "LookupConfig": {
-        "PathRegex": "/packages/{{NPM_PACKAGE}}.*"
+        "PathRegex": "/{{PACKAGE_ROUTE}}.*"
       },
       "LowCodeUnit": {
         "Package": "{{NPM_PACKAGE}}",
@@ -14,7 +14,7 @@
         "Type": "NPM"
       },
       "Processor": {
-        "BaseHref": "/packages/{{NPM_PACKAGE}}/",
+        "BaseHref": "/{{PACKAGE_ROUTE}}/",
         "DefaultFile": "index.html",
         "Type": "DFS"
       }
