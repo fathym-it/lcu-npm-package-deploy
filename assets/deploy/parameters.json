@@ -15,22 +15,25 @@
     "Order": 2,
     "Prompts": [
       {
+        "Type": "input",
         "Message": "Enter the NPM package name:"
       }
     ]
   },
   "PACKAGE_VERSION": {
-    "Order": 2,
+    "Order": 3,
     "Prompts": [
       {
+        "Type": "input",
         "Message": "Enter the NPM package version to use:"
       }
     ]
   },
   "PACKAGE_ROUTE": {
-    "Order": 2,
+    "Order": 4,
     "Prompts": [
       {
+        "Type": "input",
         "Message": "Enter the route to run the package on:"
       }
     ]
