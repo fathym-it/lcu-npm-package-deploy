@@ -26,11 +26,7 @@
   },
   "Projects": {
     "{{PROJECT_LOOKUP}}": {
-      "ApplicationLookups": ["{{$1}}"],
-      "Details": {
-        "Name": "{{Package.Package.Name}}",
-        "Description": "{{Package.Package.Description}}"
-      }
+      "ApplicationLookups": ["{{$1}}"]
     }
   }
 }
