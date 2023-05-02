@@ -28,8 +28,8 @@
     "{{PROJECT_LOOKUP}}": {
       "ApplicationLookups": ["{{$1}}"],
       "Details": {
-        "Name": "{{Package.Details.Name}}",
-        "Description": "{{Package.Details.Description}}"
+        "Name": "{{Package.Package.Name}}",
+        "Description": "{{Package.Package.Description}}"
       }
     }
   }
